@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>My Awesome - cvbn</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css' />
+		<link type="text/css" rel="stylesheet" media="all" href="../../global.css" />
+		<script src="../../json.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../../cookie.js"></script>
+		<script src="../../global.js"></script>
+	</head>
+<body data-resolution="3840 2560 1920 1280 1024 640" data-respath="">
+
+<ol id="marker">
+</ol>
+
+<div id="sidebar">
+	<div class="foreground">
+		<div id="profile" class="camera icon"></div>
+		<h1>My Awesome</h1>
+		<ul id="nav">
+			<li><span class="label">2018</span><ul><li class="gallery " data-image="01"><a href="../../2018/first-compile"><span>First compile</span></a></li><li class="gallery " data-image="01"><a href="../../2018/ads"><span>ads</span></a></li><li class="gallery active" data-image="01"><a href="../../2018/cvbn"><span>cvbn</span></a></li><li class="gallery " data-image="01"><a href="../../2018/secyndo"><span>secyndo</span></a></li></ul></li>
+		</ul>
+	</div>
+
+	<ul id="control">
+	<li><a href="#" id="resbutton"><span class="monitor icon"></span><span class=></span></a></li>
+	<li style="display: block"><a href="#" id="textbutton" class="active"><span class="toggle icon"></span><span class=></span></a></li>
+	<li style="display: block"><a href="#" id="sharebutton"><span class=></span></a></li>
+	<li  style="display: none"><a href="#" id="download"><span class=></span></a></li>
+	</ul>
+
+	<div class="background"></div>
+</div>
+
+<div id="resolution">
+</div>
+
+<div id="share">
+	<ul>
+	<li><a href="https://news.ycombinator.com/submit" target="_blank"><span class="icon hackernews"></span> Hackernews</a></li>
+
+	<li><a href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(window.location)); return false">
+		<span class="icon facebook"></span> Facebook
+	</a></li>
+
+	<li><a href="#" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon reddit"></span> Reddit
+	</a></li>
+
+	<li><a href="#" id="pinterest"><span class="icon pinterest"></span> Pinterest</a></li>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pinterest').click(function(){
+				window.open('http://pinterest.com/pin/create/button/?url='+encodeURIComponent(window.location)+'&media='+encodeURIComponent(window.location)+($(current_slide).data('url')+'/'+$('#resolution li').eq(0).data('res')+'.jpg'));
+				return false;
+			});
+		});
+	</script>
+
+
+	<li><a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon twitter"></span> Twitter
+	</a></li>
+
+	</ul>
+</div>
+
+<div id="main">
+	<div class="slide" style="color: #ffffff; background-color: #143050" data-type="image" data-width="" data-height="" data-imagewidth="1280" data-imageheight="429" data-textcolor="#ffffff" data-color1="#29292E" data-color2="#143050" data-color3="#204768" data-color4="#54575E" data-color5="#A07E62" data-color6="#4B678C" data-color7="#BEBDC0" data-videoformats="h264 vp8" data-polygon=''> <a name="1" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1280" height="429" data-url="01" /> </div> <div class="slide" style="color: #ffffff; background-color: #212211" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1080" data-textcolor="#ffffff" data-color1="#0A0B09" data-color2="#212211" data-color3="#2C2C23" data-color4="#4C472D" data-color5="#544B39" data-color6="#6B5A30" data-color7="#AD9A70" data-videoformats="h264 vp8" data-polygon=''> <a name="2" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1080" data-url="02" /> </div> <div class="slide" style="color: #ffffff; background-color: #292929" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1281" data-textcolor="#ffffff" data-color1="#101010" data-color2="#292929" data-color3="#5D5D5D" data-color4="#9A9A9A" data-color5="#D8D8D8" data-color6="" data-color7="" data-videoformats="h264 vp8" data-polygon=''> <a name="3" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1281" data-url="03" /> </div> <div class="slide" style="color: #ffffff; background-color: #171A23" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1440" data-textcolor="#ffffff" data-color1="#050B0C" data-color2="#171A23" data-color3="#10222E" data-color4="#1C3246" data-color5="#2A485D" data-color6="#514345" data-color7="#945F54" data-videoformats="h264 vp8" data-polygon=''> <a name="4" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1440" data-url="04" /> </div> <div class="slide" style="color: #ffffff; background-color: #3B3440" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1301" data-textcolor="#ffffff" data-color1="#202029" data-color2="#3B3440" data-color3="#5A5155" data-color4="#956F5C" data-color5="#C69967" data-color6="#7B788A" data-color7="#BDB5B4" data-videoformats="h264 vp8" data-polygon=''> <a name="5" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1301" data-url="05" /> </div> <div class="slide" style="color: #ffffff; background-color: #29242B" data-type="image" data-width="" data-height="" data-imagewidth="2560" data-imageheight="1440" data-textcolor="#ffffff" data-color1="#17141A" data-color2="#29242B" data-color3="#4E2F29" data-color4="#684831" data-color5="#443C47" data-color6="#976242" data-color7="#C69A62" data-videoformats="h264 vp8" data-polygon=''> <a name="6" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="2560" height="1440" data-url="06" /> </div> <div class="slide" style="color: #ffffff; background-color: #563017" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1080" data-textcolor="#ffffff" data-color1="#25231D" data-color2="#563017" data-color3="#674627" data-color4="#4D5354" data-color5="#9D531D" data-color6="#B46B35" data-color7="#958F7C" data-videoformats="h264 vp8" data-polygon=''> <a name="7" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1080" data-url="07" /> </div> <div class="slide" style="color: #ffffff; background-color: #33444D" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1080" data-textcolor="#ffffff" data-color1="#252930" data-color2="#33444D" data-color3="#4B5462" data-color4="#6A758A" data-color5="#778898" data-color6="#9A9BAC" data-color7="#D1C2CF" data-videoformats="h264 vp8" data-polygon=''> <a name="8" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1080" data-url="08" /> </div> <div class="slide" style="color: #ffffff; background-color: #314852" data-type="image" data-width="" data-height="" data-imagewidth="1920" data-imageheight="1080" data-textcolor="#ffffff" data-color1="#141D25" data-color2="#314852" data-color3="#3C505E" data-color4="#EF4A52" data-color5="#587788" data-color6="#6F8FA0" data-color7="#C9DCE9" data-videoformats="h264 vp8" data-polygon=''> <a name="9" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1920" height="1080" data-url="09" /> </div> <div class="slide" style="color: #ffffff; background-color: #65625F" data-type="image" data-width="" data-height="" data-imagewidth="1024" data-imageheight="435" data-textcolor="#ffffff" data-color1="#292B27" data-color2="#65625F" data-color3="#887775" data-color4="#808580" data-color5="#9B999A" data-color6="#BCC5CB" data-color7="#D9DBDB" data-videoformats="h264 vp8" data-polygon=''> <a name="10" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1024" height="435" data-url="10" /> </div> <div class="slide" style="color: #ffffff; background-color: #5C5233" data-type="image" data-width="" data-height="" data-imagewidth="1280" data-imageheight="1706" data-textcolor="#ffffff" data-color1="#181D0E" data-color2="#5C5233" data-color3="#8C7034" data-color4="#AA914F" data-color5="#B0ABA0" data-color6="#DBDDD9" data-color7="#F8FAFA" data-videoformats="h264 vp8" data-polygon=''> <a name="11" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1280" height="1706" data-url="11" /> </div> <div class="slide" style="color: #ffffff; background-color: #16304B" data-type="image" data-width="" data-height="" data-imagewidth="1024" data-imageheight="582" data-textcolor="#ffffff" data-color1="#1C232D" data-color2="#16304B" data-color3="#224A64" data-color4="#615A60" data-color5="#956F64" data-color6="#C28E64" data-color7="#727E8D" data-videoformats="h264 vp8" data-polygon=''> <a name="12" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1024" height="582" data-url="12" /> </div> <div class="slide" style="color: #ffffff; background-color: #7E8161" data-type="image" data-width="" data-height="" data-imagewidth="1280" data-imageheight="1706" data-textcolor="#ffffff" data-color1="#565E43" data-color2="#7E8161" data-color3="#A09369" data-color4="#4EBAD1" data-color5="#B3B1A4" data-color6="#DCD1B7" data-color7="#EBE9DE" data-videoformats="h264 vp8" data-polygon=''> <a name="13" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1280" height="1706" data-url="13" /> </div> <div class="slide" style="color: #ffffff; background-color: #604D50" data-type="image" data-width="" data-height="" data-imagewidth="1280" data-imageheight="589" data-textcolor="#ffffff" data-color1="#373030" data-color2="#604D50" data-color3="#9E6B6E" data-color4="#CC7776" data-color5="#DA8A77" data-color6="#BB8888" data-color7="#E9A190" data-videoformats="h264 vp8" data-polygon=''> <a name="14" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1280" height="589" data-url="14" /> </div> <div class="slide" style="color: #ffffff; background-color: #586655" data-type="image" data-width="" data-height="" data-imagewidth="1280" data-imageheight="1706" data-textcolor="#ffffff" data-color1="#465435" data-color2="#586655" data-color3="#7F8C65" data-color4="#4BBDD5" data-color5="#AAB4AC" data-color6="#D7D0B9" data-color7="#EBE7DC" data-videoformats="h264 vp8" data-polygon=''> <a name="15" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="1280" height="1706" data-url="15" /> </div> <div class="slide" style="color: #ffffff; background-color: #280606" data-type="image" data-width="" data-height="" data-imagewidth="640" data-imageheight="425" data-textcolor="#ffffff" data-color1="#110708" data-color2="#280606" data-color3="#1B1B27" data-color4="#541816" data-color5="#524048" data-color6="#9E5434" data-color7="#C69362" data-videoformats="h264 vp8" data-polygon=''> <a name="16" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="640" height="425" data-url="16" /> </div> <div class="slide" style="color: #ffffff; background-color: #655D56" data-type="image" data-width="" data-height="" data-imagewidth="640" data-imageheight="640" data-textcolor="#ffffff" data-color1="#322A24" data-color2="#655D56" data-color3="#8D7E72" data-color4="#A7A099" data-color5="#CFC0B4" data-color6="#DDD9D6" data-color7="#F5F5F5" data-videoformats="h264 vp8" data-polygon=''> <a name="17" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="640" height="640" data-url="17" /> </div> <div class="slide" style="color: #ffffff; background-color: #2F6160" data-type="video" data-width="" data-height="" data-imagewidth="640" data-imageheight="855" data-textcolor="#ffffff" data-color1="#012223" data-color2="#2F6160" data-color3="#4C857A" data-color4="#338888" data-color5="#629591" data-color6="#92AEAF" data-color7="#FCFDFC" data-videoformats="h264 vp8" data-polygon=''> <a name="18" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> </div> </div> <img class="image blank" src="//:0" width="640" height="855" data-url="18" /> </div> <div class="slide" style="color: #ffffff; background-color: #272014" data-type="image" data-width="" data-height="" data-imagewidth="640" data-imageheight="330" data-textcolor="#ffffff" data-color1="#050402" data-color2="#272014" data-color3="#4D2815" data-color4="#55482F" data-color5="#5D5C50" data-color6="#927B64" data-color7="#B5B5AA" data-videoformats="h264 vp8" data-polygon=''> <a name="19" class="internal"></a> <div class="post" style="top: 70%; left: 20%; width: 60%; height: 30%"> <div class="content"> <p>Preferences</p> <p>Edit and save to update preferences:</p> <p><code>yaml useProportionalFontInProse: Roboto # set to false to disable useLargeFontInHeadings: "Roboto" # set to false to disable font: "Fira Mono" fontSize: 15 lineHeight: 1.8 lineWidth: 72 </code></p> <p>More options coming soon.</p> <p>| fghbk | frjvjb | rfjvbrjv | | ----- | ------- | -------- | | 5454 | gftfhg | 531548 |</p> </div> </div> <img class="image blank" src="//:0" width="640" height="330" data-url="19" /> </div> 
+
+	<div id="comments">
+	<div id="disqus_thread"></div>
+	</div>
+
+	<script type="text/javascript">
+		var disqus_shortname = '';
+		var disqus_identifier = '2018/cvbn';
+
+		if(disqus_shortname){
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		}
+	</script>
+</div>
+
+</body>
+</html>
