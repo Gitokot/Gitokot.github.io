@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: gray;
+  background-color: gray | transparent;
   font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
   text-align: center;
 }
@@ -39,7 +39,7 @@ a:hover {
 }
 
 a:visited {
-  color: #808080;
+  color: #282828;
 }
 
 blockquote {
